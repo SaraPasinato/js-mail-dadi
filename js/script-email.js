@@ -13,7 +13,7 @@ console.table(usersEmail);
 var userEmail= prompt("inserisci un' email: ","pinco@yahoo.it");
 var isCorrect=false;    //flag 
 
-
+//validate input
 if (userEmail.length === 0){
     alert("non hai inserito email.");
 }
