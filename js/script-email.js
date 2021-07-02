@@ -12,8 +12,8 @@ console.log("Questi sono le email che puoi scegliere: ");
 console.table(usersEmail);
 var userEmail= prompt("inserisci un' email: ","pinco@yahoo.it");
 var isCorrect=false;    //flag 
-//access to html tag
-var access=document.getElementById('access');
+
+//TODO: validation user input
 
 //debug inline
 console.log("scelta utente: ",userEmail);
@@ -24,6 +24,8 @@ for(i=0;i<usersEmail.length;i++){
         isCorrect=true;
     }
 }
+//access to html tag
+var access=document.getElementById('access');
 
 //write html tag response
 if(isCorrect==false){
