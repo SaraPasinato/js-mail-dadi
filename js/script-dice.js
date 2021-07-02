@@ -41,10 +41,10 @@ userScore.innerText=parseInt(userTot);
 //debug inline
 console.table(randUser);
 console.table(randPc);
-
 console.log( "totale user",userTot);
 console.log( "totale pc",pcTot);
 
+//write results
 if(userTot<pcTot){
     winner.innerText="PC";
     winner.style.color="#000";
