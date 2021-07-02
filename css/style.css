@@ -32,3 +32,8 @@ body{
     font-family: 'Tourney', cursive;
     font-size: 5rem;
 }
+
+/* ! dice li */
+#dice-main li{
+   padding-right: 15px;
+}
