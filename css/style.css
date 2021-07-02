@@ -1,3 +1,16 @@
 body{
-    background-color: blue;
+    background-color: #f4f4f4;
+}
+.row{
+    min-height: 300px;
+}
+
+.contents{
+    min-height:max-content;
+    min-width: 50%;
+    border-radius: 20px 0 20px 0;
+    background-color: #fff;
+    border: 2px double #c5f6fa;
+    padding: 20px;
+    box-shadow: 0 0 20px #c5f6fa;
 }
